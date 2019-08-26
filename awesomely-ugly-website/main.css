@@ -6,4 +6,18 @@ body {
 }
 blockquote {
     font-family: cursive;
+    background: antiquewhite;
+}
+
+.hiddencursor {
+  cursor: none;
+}
+
+#skittish:hover {
+  margin-left: 60px
+}
+
+#sluggish:hover {
+  margin-left: 1000px;
+  transition: margin-left 10s;
 }
