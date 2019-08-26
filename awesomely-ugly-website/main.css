@@ -1,3 +1,6 @@
 img {
   border: solid 2px black;
 }
+body {
+  border: dotted 4px green;
+}
