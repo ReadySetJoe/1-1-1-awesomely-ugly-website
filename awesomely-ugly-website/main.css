@@ -4,3 +4,6 @@ img {
 body {
   border: dotted 4px green;
 }
+blockquote {
+    font-family: cursive;
+}
