@@ -8,6 +8,7 @@ img:active {
 
 body {
   border: dotted 4px green;
+  margin: 20px;
 }
 
 blockquote {
@@ -29,7 +30,7 @@ blockquote {
 
 #sluggish:hover {
   margin-left: 1000px;
-  transition: margin-left 10s;
+  transition: margin-left 1s;
 }
 
 time {
