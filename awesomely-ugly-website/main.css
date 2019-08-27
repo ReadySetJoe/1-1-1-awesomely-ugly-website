@@ -1,9 +1,15 @@
 img {
   border: solid 2px black;
 }
+
+img:active {
+  border-radius: 25%;
+}
+
 body {
   border: dotted 4px green;
 }
+
 blockquote {
     font-family: cursive;
     background: antiquewhite;
@@ -13,11 +19,19 @@ blockquote {
   cursor: none;
 }
 
+.gotcha:active {
+  visibility: hidden;
+}
+
 #skittish:hover {
-  margin-left: 60px
+  margin-left: 60px;
 }
 
 #sluggish:hover {
   margin-left: 1000px;
   transition: margin-left 10s;
+}
+
+time {
+  color: red;
 }
